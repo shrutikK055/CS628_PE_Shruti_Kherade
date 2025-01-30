@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Add Task Button - Blue */
+.add-task-button {
+    background-color: #1e40af; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .add-task-button:hover {
+    background-color: #3b82f6; /* Lighter blue */
+  }
+  
+  /* Delete Task Button - Red */
+  .delete-task-button {
+    background-color: #ef4444; /* Red */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .delete-task-button:hover {
+    background-color: #dc2626; /* Darker red */
+  }
+  
+  /* Todo Item Styling */
+  .todo-item {
+    background-color: #f3f4f6; /* Light gray */
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item span {
+    font-size: 16px;
+  }
+  
